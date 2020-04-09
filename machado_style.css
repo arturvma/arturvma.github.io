@@ -38,6 +38,6 @@ section, nav {
   max-width: 1200px;
   margin: auto;
 }
-#section1, #section2, #section3 {
-  padding-top: 20px;
+#section1, #section2, #section3, #googleMap {
+  margin-top: 20px;
 }
