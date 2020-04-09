@@ -1,11 +1,10 @@
 body, header, nav, section, footer {
   font-family: helvetica, arial;
-  font-size: 30px;
   text-align: center;
   font-weight: bold;
-  background-color: #eeeff1;
   color: #631429;
 }
+
 a:link, a:visited, a:active, a:hover {
   text-decoration: none;
   display: inline-block;
@@ -13,7 +12,6 @@ a:link, a:visited, a:active, a:hover {
 }
 .row div {
   text-align: center;
-  font-size: 24px;
   border: 5px solid #a7803d;
   border-style: dotted hidden dotted hidden;
   color: #631429;
@@ -29,7 +27,6 @@ a:link, a:visited, a:active, a:hover {
 }
 p {
   text-align: justify;
-  font-size: 14px;
 }
 section, nav {
   padding-top: 20px;
