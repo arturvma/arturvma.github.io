@@ -16,7 +16,7 @@ nav {
   color: #a7803d;
   font-weight: normal;
 }
-.row div:hover{
+nav > .container > .row div:hover{
   color: white;
   background-image: linear-gradient(to bottom right, #631429, rgba(255,0,0,0));
 }
@@ -39,4 +39,7 @@ section{
 }
 .space{
   padding-left: 4em;
+}
+#section2 {
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), #eeeff1, cyan, #eeeff1, rgba(255,0,0,0));
 }
