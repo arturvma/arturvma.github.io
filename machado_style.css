@@ -1,29 +1,24 @@
 body, header, nav, section, footer {
   font-family: helvetica, arial;
   text-align: center;
-  font-weight: bold;
   color: #631429;
 }
 section{
   display: flex;
   flex-wrap: wrap;
 }
-a:link, a:visited, a:active, a:hover {
-  text-decoration: none;
-  display: inline-block;
-  color: #631429;
+nav {
+  background-image: linear-gradient(to bottom right, #631429, black);
 }
 .row div {
+  padding: 20px;
   text-align: center;
-  border: 5px solid #a7803d;
-  border-style: dotted hidden dotted hidden;
-  color: #631429;
+  color: #a7803d;
   font-weight: normal;
 }
 .row div:hover{
-  font-weight: bold;
-  border: 5px solid #631429;
-  border-style: dotted hidden dotted hidden;
+  color: white;
+  background-image: linear-gradient(to bottom right, #631429, rgba(255,0,0,0));
 }
 #logo_horizontal {
   max-width: 1200px;
@@ -31,11 +26,12 @@ a:link, a:visited, a:active, a:hover {
 p {
   text-align: justify;
 }
-section, nav {
+section{
   padding-top: 20px;
 }
-#section1 p, #section2 p, #section3 p {
+#section1 p, #section2 p, #section3 p, .container {
   max-width: 1200px;
+  vertical-align: text-bottom;
   margin: auto;
 }
 #section1, #section2, #section3, #googleMap {
