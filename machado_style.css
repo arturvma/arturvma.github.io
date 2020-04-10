@@ -1,5 +1,5 @@
 body, header, nav, section, footer {
-  font-family: helvetica, arial;
+  font-family: calibri, century gothic, cambria, times new roman, arial;
   text-align: center;
   color: #631429;
 }
@@ -7,39 +7,71 @@ section{
   display: flex;
   flex-wrap: wrap;
 }
+header{
+  background-image: url('fundo.png');
+}
 nav {
   background-image: linear-gradient(to bottom right, #631429, black);
 }
 .row div {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   color: #a7803d;
   font-weight: normal;
 }
 nav > .container > .row div:hover{
+  cursor: pointer;
   color: white;
   background-image: linear-gradient(to bottom right, #631429, rgba(255,0,0,0));
 }
 #logo_horizontal {
   max-width: 1200px;
+  cursor: pointer;
 }
-p {
+.machado {
+  color: #a7803d;
+}
+p, h5 {
   text-align: justify;
 }
 section{
   padding-top: 20px;
 }
-#section1 p, #section2 p, #section3 p, .container {
+#section1 p, #section2 p, #section2_a p, #section3 p, .container {
   max-width: 1200px;
   vertical-align: text-bottom;
   margin: auto;
 }
-#section1, #section2, #section3, #googleMap {
+#section1, #section2, #section2_a, #section3, #googleMap {
   margin-top: 20px;
 }
 .space{
   padding-left: 4em;
 }
 #section2 {
-  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), #eeeff1, cyan, #eeeff1, rgba(255,0,0,0));
+  background-image: url('imagens/estante.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+.fundo_escuro {
+  margin: auto;
+  color: #eeeff1;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.fundo_mensagem {
+  margin: auto;
+  max-width: 600px;
+  border: 6px hidden;
+  background-color: #eeeff1;
+}
+button{
+  width: 100px;
+  height: 50px;S
+  display: inline-flex;
+  cursor: pointer;
 }
