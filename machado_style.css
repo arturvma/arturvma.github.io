@@ -51,7 +51,14 @@ section{
   background-repeat: no-repeat;
   padding: 30px;
 }
-
+.fundo_escuro {
+  margin: auto;
+  color: #eeeff1;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .fundo_mensagem {
   margin: auto;
   max-width: 600px;
