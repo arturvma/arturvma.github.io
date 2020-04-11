@@ -37,6 +37,7 @@ nav > .container > .row div:hover{
 .texto, h5 {
   text-align: justify;
 }
+/* texto dentro dos slides */
 .slide {
   text-align: center;
 }
@@ -85,7 +86,7 @@ button{
 .slideshow-container {
   margin: auto;
   max-width: 1200px;
-  height: 300px;
+  min-height: 300px;
   color: white;
   position: relative;
   background: rgba(0, 0, 0, 0.8);
