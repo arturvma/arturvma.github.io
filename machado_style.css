@@ -3,10 +3,6 @@ body, header, nav, section, footer {
   text-align: center;
   color: #631429;
 }
-section{
-  display: flex;
-  flex-wrap: wrap;
-}
 header{
   background-image: url('fundo.png');
 }
